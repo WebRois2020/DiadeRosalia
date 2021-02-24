@@ -10,18 +10,19 @@
 		body {
 			font-size: 18px;
 			font-family: sans-serif;
-			background: #cccccc;
-			margin: 0px;
+			background: #fff margin: 0px;
 			padding: 0px;
+			width: 75%;
+			margin: 0 auto;
 		}
 
 		* {
-			margin: 0.1em;
-			padding: 0.5em;
+			margin: 0em;
+			padding: 0em;
 		}
 
 		#main {
-			min-height: 800px;
+			min-height: 100%;
 			margin: 0px;
 			padding: 0px;
 			display: -webkit-flex;
@@ -31,71 +32,12 @@
 
 		}
 
-		#main>nav {
-
-			border: 1px solid #000;
-			border-radius: 7pt;
-			background: #ccccff;
-			-webkit-flex: 20%;
-			flex: 20%;
-			-webkit-order: 1;
-			order: 1;
-			display: block;
-
-		}
-
 		#main>section {
-
-			border: 1px solid #000;
+			border: 1px solid #fff;
 			border-radius: 7pt;
 			background: #dddd88;
 			-webkit-flex: 70%;
 			flex: 70%;
-			-webkit-order: 2;
-			order: 2;
-
-		}
-
-
-		#main>aside {
-
-			border: 1px solid #000;
-			border-radius: 7pt;
-			background: #ccccff;
-			-webkit-flex: 15%;
-			flex: 15%;
-			-webkit-order: 3;
-			order: 3;
-
-		}
-
-		header,
-		footer {
-			display: block;
-			min-height: 100px;
-			border: 1px solid #000;
-			border-radius: 7pt;
-			background: #ffeebb;
-
-		}
-
-		nav a {
-			margin: 0.1em 0.2em 0.5em 0.5em;
-			padding: 0.2em;
-			background: #ccccff;
-			font-size: 1em;
-			display: block;
-			color: #000;
-			text-decoration: none;
-
-		}
-
-		nav a:hover {
-			margin: 0.2em;
-			padding: 0.2em;
-			background: #000;
-			color: #fff;
-			border-radius: 3pt;
 
 		}
 
@@ -103,16 +45,16 @@
 		h2,
 		h3 {
 
-			font-weight: 900;
+			font-weight: normal;
 			font-family: serif;
 		}
 
 		section div {
 			margin: auto;
 			padding: 1em;
-			border: 2px solid #000;
+			border: 2px solid #fff;
 			border-radius: 5pt;
-			background: #ccc;
+			background: #fff;
 			font-size: 1em;
 
 		}
@@ -120,7 +62,6 @@
 		section div div {
 			margin: auto;
 			padding: 1em;
-			border: 2px solid blue;
 			border-radius: 5pt;
 			background: #ccc;
 			font-size: 0.7em;
@@ -134,7 +75,7 @@
 
 		div>p {
 			font-weight: bold;
-			color: midnightblue
+			color: midnightblue;
 		}
 
 		/* Demasiado estrecho para soportar tres columnas? */
@@ -144,15 +85,6 @@
 			#main {
 				-webkit-flex-flow: column;
 				flex-flow: column;
-
-			}
-
-			#main>nav,
-			#main>aside,
-			header,
-			footer {
-				min-height: 50px;
-				max-height: 50px;
 
 			}
 
@@ -171,20 +103,20 @@
 </head>
 
 <body>
-	<header>
-	</header>
 	<div id="main">
-
-		<section>sección
+		<section>
 			<h1>#RoisconRosalia</h1>
 			<p>#DíadeRosalía</p>
-
+			<p>Por mor do 184º aniversario de Rosalía de Castro, o grupo de alumnas/traballadoras do Programa de Emprego Xuventude en Acción 2020 (Dodro-Padrón-Rois) elaboramos cinco sitios web dedicados á nosa escritora.
+			</p>
 			<div>
 
 			</div>
 		</section>
 	</div>
-
+	<footer>
+		<img src="logos.jpg" alt="Programa de Emprego Xuventude en Acción 2020 (Dodro, Padrón, Rois)">
+	</footer>
 </body>
 
 </html>
