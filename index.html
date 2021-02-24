@@ -4,143 +4,74 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="icon" href="favicon.ico">
-
 	<title>Xuventude en acción 2020(Dodro, Padrón, Rois)</title>
-	<style type="text/css">
-		body {
-			font-size: 18px;
-			font-family: sans-serif;
-			background: #FFF;
-			margin: 0px;
-			padding: 0px;
-		}
-
-		* {
-			margin: 0.1em;
-			padding: 0.5em;
-		}
-
-		#main {
-			min-height: 800px;
-			margin: 0px;
-			padding: 0px;
-			display: -webkit-flex;
-			display: flex;
-			-webkit-flex-flow: row;
-			flex-flow: row;
-
-		}
+	<link rel="stylesheet" href="css/layout.css" type="text/css" />
+	<link rel="stylesheet" href="css/featured_slide.css" type="text/css" />
 
 
-		#main>section {
-
-			border: 1px solid #000;
-			border-radius: 7pt;
-			background: #fff;
-			-webkit-flex: 70%;
-			flex: 70%;
-			-webkit-order: 2;
-			order: 2;
-
-		}
-
-		footer {
-			display: block;
-			min-height: 100px;
-			border: 1px solid #CCC;
-			border-radius: 7pt;
-			background: #FFF;
-
-		}
-
-		h1,
-		h2,
-		h3 {
-
-			font-weight: 900;
-			font-family: serif;
-		}
-
-		section div {
-			margin: auto;
-			padding: 1em;
-			border: 2px solid #000;
-			border-radius: 5pt;
-			background: #fff;
-			font-size: 1em;
-
-		}
-
-		section div div {
-			margin: auto;
-			padding: 1em;
-			border: 2px solid blue;
-			border-radius: 5pt;
-			background: #fff;
-			font-size: 0.7em;
-
-		}
-
-		section>p {
-			color: brown;
-
-		}
-
-		div>p {
-			font-weight: bold;
-			color: midnightblue
-		}
-
-		/* Demasiado estrecho para soportar tres columnas? */
-
-		@media all and (max-width: 640px) {
-
-			#main {
-				-webkit-flex-flow: column;
-				flex-flow: column;
-
-			}
-
-
-			header,
-			footer {
-				min-height: 50px;
-				max-height: 50px;
-
-			}
-
-			#main>section,
-			#main>nav,
-			#main>aside {
-				/* volver al orden del documento 
-                order especifica el orden utilizado para disponer los elementos en su contenedor flexible 
-				-webkit-order: 0;
-				order: 0;
-			}
-			
-		}
-
-	</style>
 </head>
 
-<body>
+<body id="top">
+	<div class="wrapper col1">
+		<!-- header -->
+		<div id="header">
+			<header>
+				<!-- ***********************************************************+ -->
 
-	<div id="main">
+				<h1><span>#RoisconRosalía</span> <span>#DíadeRosalía</span></h1>
+				<hr>
+			</header>
+		</div>
 
-		<section>
-			<h1>#RoisconRosalía</h1>
-			<p>#DíadeRosalía</p>
-			<div>
-				<p> </p>
-				<div>
-					<h3> </h3>
-					<p> </p>
+		<!-- contido -->
+		<div class="wrapper col1">
+
+			<p class="category">Por mor do 184º aniversario de Rosalía de Castro, o grupo de alumnas/traballadoras do Programa de Emprego Xuventude en Acción 2020 (Dodro-Padrón-Rois) elaboramos cinco sitios web dedicados á nosa escritora. </p>
+			<!-- ***********************************************************+ -->
+			<div id="featured_slide">
+
+				<div id="slider">
+
+					<ul>
+						<li class="category">
+							<h2>Cristina e Lorena</h2>
+							<a href="#"><img src="imaxes_pantalla/crisylorena.jpg" alt="" /></a>
+							<p> </p>
+
+						</li>
+						<li class="category">
+							<h2>Nuria G. e Noelia G.</h2>
+							<a href="#"><img src="imaxes_pantalla/nuria_noelia.jpg" alt="" /></a>
+							<p> </p>
+						</li>
+						<li class="category">
+							<h2>Fátima e Nuria R.</h2>
+							<a href="#"><img src="imaxes_pantalla/nuria_fatima.jpg" alt="" /></a>
+							<p> </p>
+						</li>
+						<li class="category">
+							<h2>Miriam e Noelia F.</h2>
+							<a href="#"><img src="imaxes_pantalla/noelia-f_miriam.jpg" alt="" /></a>
+							<p> </p>
+						</li>
+						<li class="category">
+							<h2>Alba e María</h2>
+							<a href="#"><img src="imaxes_pantalla/maria_alba.jpg" alt="" /></a>
+							<p> </p>
+						</li>
+
+
+					</ul>
 				</div>
+				<!-- ***********************************************************+ -->
 			</div>
-		</section>
+		</div>
 
+		<!-- footer -->
+		<div id="copyright">
+			<footer><img src="logos.jpg"> </footer>
+		</div>
 	</div>
-	<footer><img src="logos.jpg"> </footer>
 </body>
 
 </html>
