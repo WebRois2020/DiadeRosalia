@@ -10,18 +10,17 @@
 		body {
 			font-size: 18px;
 			font-family: sans-serif;
-			background: #FFF;
-			margin: 0px;
+			background: #fff margin: 0px;
 			padding: 0px;
 		}
 
 		* {
-			margin: 0.1em;
-			padding: 0.5em;
+			margin: 0em;
+			padding: 0em;
 		}
 
 		#main {
-			min-height: 800px;
+			min-height: 100%;
 			margin: 0px;
 			padding: 0px;
 			display: -webkit-flex;
@@ -31,25 +30,12 @@
 
 		}
 
-
 		#main>section {
-
-			border: 1px solid #000;
+			border: 1px solid #fff;
 			border-radius: 7pt;
-			background: #fff;
+			background: #dddd88;
 			-webkit-flex: 70%;
 			flex: 70%;
-			-webkit-order: 2;
-			order: 2;
-
-		}
-
-		footer {
-			display: block;
-			min-height: 100px;
-			border: 1px solid #CCC;
-			border-radius: 7pt;
-			background: #FFF;
 
 		}
 
@@ -57,14 +43,14 @@
 		h2,
 		h3 {
 
-			font-weight: 900;
+			font-weight: normal;
 			font-family: serif;
 		}
 
 		section div {
 			margin: auto;
 			padding: 1em;
-			border: 2px solid #000;
+			border: 2px solid #fff;
 			border-radius: 5pt;
 			background: #fff;
 			font-size: 1em;
@@ -74,9 +60,8 @@
 		section div div {
 			margin: auto;
 			padding: 1em;
-			border: 2px solid blue;
 			border-radius: 5pt;
-			background: #fff;
+			background: #ccc;
 			font-size: 0.7em;
 
 		}
@@ -88,7 +73,7 @@
 
 		div>p {
 			font-weight: bold;
-			color: midnightblue
+			color: midnightblue;
 		}
 
 		/* Demasiado estrecho para soportar tres columnas? */
@@ -98,14 +83,6 @@
 			#main {
 				-webkit-flex-flow: column;
 				flex-flow: column;
-
-			}
-
-
-			header,
-			footer {
-				min-height: 50px;
-				max-height: 50px;
 
 			}
 
@@ -124,23 +101,19 @@
 </head>
 
 <body>
-
 	<div id="main">
-
 		<section>
-			<h1>#RoisconRosalía</h1>
+			<h1>#RoisconRosalia</h1>
 			<p>#DíadeRosalía</p>
+
 			<div>
-				<p> </p>
-				<div>
-					<h3> </h3>
-					<p> </p>
-				</div>
+
 			</div>
 		</section>
-
 	</div>
-	<footer><img src="logos.jpg"> </footer>
+	<footer>
+		<img src="logos.jpg" alt="Programa de Emprego Xuventude en Acción 2020 (Dodro, Padrón, Rois)">
+	</footer>
 </body>
 
 </html>
