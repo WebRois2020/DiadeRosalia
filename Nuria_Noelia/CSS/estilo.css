@@ -20,7 +20,7 @@ h1 {
 	color: white;
 	font-size: 4em;
 	margin: 0px;
-	padding: 0.2em;
+	padding: 0.2em;	
 	text-align: center;
 	font-family: 'Dancing Script', cursive;
 
@@ -32,12 +32,11 @@ nav {
 	width: 100%;
 	padding: 3em;
 }
-
 nav a {
 	font-size: 1.3em;
 	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
-	color: white;
+	color:white;
 	margin: 0em 1em 0em 0em;
 	background-color: black;
 	padding: 2%;
@@ -63,7 +62,7 @@ nav a {
 	text-align: left;
 	font-size: 2em;
 	width: 25%;
-	margin-left: 30%;
+	margin-left: 10%;
 	margin-top: 3em;
 }
 
@@ -81,7 +80,7 @@ footer a {
 	font-size: 1.3em;
 	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
-	color: white;
+	color:white;
 }
 
 section {
@@ -89,14 +88,13 @@ section {
 	margin: 0 auto;
 
 }
-
 .row {
-	display: inline-flex;
+	display:inline-flex;
 	width: 80%;
 	margin: 0 auto;
 }
 
-.rosalia {
+.rosalia  {
 	margin-top: 2em;
 }
 
@@ -109,66 +107,64 @@ section {
 
 
 #contenido {
-	max-width: 95%;
-	margin: 0 auto;
-	padding: 0;
-	margin-left: 5em;
-}
+		max-width: 95%;
+		margin: 0 auto;
+		padding: 0;
+		margin-left: 5em;
+		}
 
 #contenido article {
-	float: left;
-	width: 30%;
-	padding: .5em;
-	margin: 0.2em;
-}
-
+			float: left;
+			width: 30%;
+			padding: .5em;
+			margin: 0.2em;
+		}
 #contenido article div {
-	border: 1px solid #d9d9d9;
-	padding-bottom: 1em;
-}
+			border: 1px solid #d9d9d9;
+			padding-bottom: 1em;
+		}
 
-#contenido p {
+#contenido p{
 	padding: .5em;
 	padding-bottom: 0;
-	line-height: 1.5;
+	line-height: 1.5; 
 	margin-top: 0 auto;
 
-
-}
+	
+		}
 
 #contenido img {
 	width: 100%;
 	box-shadow: 2px 5px 5px gray;
-	border-radius: 0.6em;
+	border-radius:0.6em;
 
 }
-
-.negrita {
+.negrita{
 	font-weight: bold;
 }
 
 .fotos {
-	display: inline-block;
-	width: 100%;
+	display:inline-block;
+	width:100%;
 	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-bottom:2em;
 
 }
 
-.foto {
+.foto{
 
-	width: 20em;
-	height: 25em;
-	margin-bottom: 2em;
+	width:20em;
+	height:25em;
+	margin-bottom:2em;
 	text-align: center;
 	box-shadow: 2px 5px 5px gray;
-	border-radius: 0.6em;
+	border-radius:0.6em;
 }
 
-.sec {
+.sec{
 
 	width: 70%;
-	text-align: center;
+	text-align:center;
 	margin-top: 3em;
 	margin-left: 9em;
 
